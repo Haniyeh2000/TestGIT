@@ -1,5 +1,6 @@
 def pow(power, base, p):
     result = 1
+    x=12
     for i in range(len(power)):
         # always mod in n because in system is n
         result = result * result % p

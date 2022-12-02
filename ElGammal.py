@@ -7,6 +7,7 @@ def dlog(g,p,pub_key) :
         if number == pub_key:
             pri_key = i
             break
+
     if pri_key == 0:
         print("NOT FOUND PRIVATE KEY...IM SORRY")
     else:
